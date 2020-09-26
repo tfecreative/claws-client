@@ -1,0 +1,32 @@
+// Colors
+$primary: #fffbcd;
+$secondary: #9b4e2a;
+$accent: #fdd121;
+
+$link-color: #9b2a3e;
+
+$lighten: 10;
+$darken: 10;
+
+$colors: (
+  primary: (
+    base: $primary,
+    light: lighten($primary, $lighten),
+    dark: darken($primary, $darken),
+  ),
+  secondary: (
+    base: $secondary,
+    light: lighten($secondary, $lighten),
+    dark: darken($secondary, $darken),
+  ),
+  accent: (
+    base: $accent,
+    light: lighten($accent, $lighten),
+    dark: darken($accent, $darken),
+  ),
+);
+
+@function clr($base, $shade: base) {
+  $color: map-get(map-get($colors, $base), $shade);
+  @return $color;
+}

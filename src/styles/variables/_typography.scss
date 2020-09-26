@@ -1,0 +1,22 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Bungee&family=Raleway:wght@400;600;700&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+
+// Font stack
+$sans-serif: "Raleway", sans-serif;
+$cursive: "Bungee", cursive;
+$serif: "Arvo", Georgia, "Times New Roman", serif;
+
+// Font weights
+$font-weight-normal: 400;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+$font-size-xxs: 0.375rem;
+$font-size-xs: 0.5rem;
+$font-size-sm: 0.75rem;
+$font-size-md: 0.95rem;
+$font-size-lg: 1.25rem;
+$font-size-xl: 1.5rem;
+$font-size-xxl: 2rem;
+$font-size-xxxl: 4rem;
