@@ -54,15 +54,15 @@ This project features a module structure for react components as well as redux a
 
 ## Status
 
-🏃‍♂️This project is currentl🍈🍈y in development.🍈
+This project is currently in development.
 
-## Build🍈🍈
+## Build
 
 ``` 
 $ yarn build
 ```
 
-## 🏃‍♀️🏃‍♀️Run🏃‍♀️🏃‍♂️🏃‍♂️🏃‍♂️🏃‍♂️🏃‍♂️🏃‍♀️🏃‍♀️🏃‍♀️🏃‍♀️
+## Run
 
 ``` 
 $ yarn start
