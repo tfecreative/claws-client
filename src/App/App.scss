@@ -11,12 +11,7 @@
 }
 
 .site-content {
+  display: flex;
   flex: 1 0;
-}
-
-.section {
-  margin: $spacing-lg $spacing-md;
-  @include sm {
-    margin: $spacing-xl;
-  }
+  background-color: clr("primary");
 }

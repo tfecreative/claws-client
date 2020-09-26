@@ -1,0 +1,10 @@
+@import "variables/colors";
+@import "variables/sizes";
+
+.home {
+  display: flex;
+  flex: 1;
+  background-color: clr("secondary", "light");
+  border-top: 10px solid clr("primary", "dark");
+  padding: $spacing-md;
+}
