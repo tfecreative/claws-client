@@ -86,4 +86,5 @@ Run e2e tests with cypress.
 
 ## Attributions
 
-Claw Machine Vectors by [Vecteezy](https://www.vecteezy.com/free-vector/claw-machine)
+- Claw Machine Vectors by [Vecteezy](https://www.vecteezy.com/free-vector/claw-machine)
+- Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)
