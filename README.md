@@ -83,3 +83,7 @@ $ yarn cypress
 ```
 
 Run e2e tests with cypress.
+
+## Attributions
+
+Claw Machine Vectors by [Vecteezy](https://www.vecteezy.com/free-vector/claw-machine)

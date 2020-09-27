@@ -1,7 +1,6 @@
-@import "variables/colors";
 @import "variables/sizes";
-@import "variables/typography";
 @import "mixins/breakpoints";
+@import "vendors/vendors";
 
 .App {
   height: 100vh;
@@ -11,12 +10,6 @@
 }
 
 .site-content {
+  display: flex;
   flex: 1 0;
-}
-
-.section {
-  margin: $spacing-lg $spacing-md;
-  @include sm {
-    margin: $spacing-xl;
-  }
 }
