@@ -1,13 +1,6 @@
-@import "variables/colors";
 @import "variables/sizes";
 @import "mixins/breakpoints";
 @import "variables/typography";
-
-a {
-  color: $link-color;
-  font-family: $sans-serif;
-  font-weight: $font-weight-bold;
-}
 
 h1,
 h2,
