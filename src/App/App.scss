@@ -1,7 +1,6 @@
-@import "variables/colors";
 @import "variables/sizes";
-@import "variables/typography";
 @import "mixins/breakpoints";
+@import "vendors/vendors";
 
 .App {
   height: 100vh;
@@ -13,5 +12,4 @@
 .site-content {
   display: flex;
   flex: 1 0;
-  background-color: clr("primary");
 }
