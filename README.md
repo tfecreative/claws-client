@@ -8,6 +8,12 @@ Discover claw machines nearby and share your favorite local spots with others.
 
 Claws web application built with TypeScript and React. Client uses Redux with Redux Saga and includes unit tests as well as end-to-end tests for core functionality.
 
+⚠️**Notes**⚠️
+
+This project is a demo and not meant for production. Client API Key must be
+set and restrictions applied.
+
+
 ### Structure
 
 This project features a module structure for react components as well as redux and redux sagas. Styles are mostly component-based, but some variables and mixins are available for improved consistency. In the file tree below, see the Home module and Core store for examples of the structure to be used for continued development.
@@ -46,6 +52,9 @@ This project features a module structure for react components as well as redux a
  ┃ ┣ 📂variables
  ┃ ┃ ┣ 📜...
  ┃ ┃ ┗ 📜variables.scss
+ ┃ ┣ vendors
+ ┃ ┃ ┗ ...
+ ┃ ┃ ┗ vendors.scss
  ┃ ┗ 📜_main.scss
  ┣ 📜index.scss
  ┣ 📜index.tsx
@@ -55,6 +64,14 @@ This project features a module structure for react components as well as redux a
 ## Status
 
 This project is currently in development.
+
+## Next
+
+**Claw Machine Details**
+Claw machine details modal to display location details when a marker on the map is clicked.
+
+****
+Claw machine details modal to display location details when a marker on the map is clicked.
 
 ## Build
 
