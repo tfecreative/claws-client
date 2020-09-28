@@ -1,0 +1,11 @@
+@import "variables/sizes";
+@import "variables/typography";
+
+.section-submission {
+  display: flex;
+  flex: 1;
+}
+
+.claw-machine-image {
+  max-height: 350px;
+}
