@@ -17,8 +17,7 @@ export const Submission = () => {
     }
 
     try {
-      await dispatch(submitClawMachine(placeId));
-      history.push("/");
+      dispatch(submitClawMachine(placeId, history));
     } catch (e) {
       console.error(e);
     }
@@ -41,7 +40,9 @@ export const Submission = () => {
         </Row>
         <Row>
           <Col>
-            <h5 className="submission-lead text-center">Where's the Claw Machine?</h5>
+            <h5 className="submission-lead text-center">
+              Where's the Claw Machine?
+            </h5>
           </Col>
         </Row>
         <Row>
