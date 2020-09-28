@@ -21,14 +21,18 @@ export const HomeHero = () => {
     lng: -81.377037,
   };
 
-  const loadClaws = () => {
-    dispatch({
+  const loadClaws = async () => {
+    await dispatch({
       type: clawsActions.LOAD_CLAW_LOCATIONS,
     });
   };
 
   useEffect(() => {
-    loadClaws();
+    async function loadClawsAsync() {
+      await loadClaws();
+    }
+
+    loadClawsAsync();
   }, []);
 
   const goToSubmission = () => {

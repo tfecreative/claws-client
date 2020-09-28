@@ -1,4 +1,5 @@
 import { Location } from "ClawMap/types";
+import { History } from "history";
 
 export type ClawsState = {
   locations?: Location[];
@@ -17,6 +18,7 @@ export interface IClawsAction {
   type: string;
   placeId?: string;
   locations?: Location[];
+  history?: History;
 }
 
 export type IClawsActionSubmitClawMachine = {

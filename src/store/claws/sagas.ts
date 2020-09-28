@@ -18,11 +18,16 @@ function* watchClawMachineSubmissionRequested() {
 
 function* clawMachineSubmissionsScheduler(action: IClawsAction) {
   const placeId = action.placeId;
+  const history = action.history;
 
   if (placeId) {
     yield put({ type: clawsActions.SUBMIT_CLAW_MACHINE_STARTED });
     yield call(clawsService.submit, placeId);
     yield put({ type: clawsActions.SUBMIT_CLAW_MACHINE_FINISHED });
+
+    if (history) {
+      history.push("/");
+    }
   }
 }
 
