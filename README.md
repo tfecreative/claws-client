@@ -4,6 +4,10 @@
 
 Discover claw machines nearby and share your favorite local spots with others.
 
+
+<img src="https://user-images.githubusercontent.com/62036740/94477274-a7b4bd80-019f-11eb-9a9e-0b622fd30c45.png" height="550" alt="Claws Screenshot">&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://user-images.githubusercontent.com/62036740/94477277-a84d5400-019f-11eb-8024-feb3fcfaa11a.png" height="550" alt="Claws Screenshot">
+
 ## Project
 
 Claws web application built with TypeScript and React. Client uses Redux with Redux Saga and includes unit tests as well as end-to-end tests for core functionality.
@@ -12,7 +16,6 @@ Claws web application built with TypeScript and React. Client uses Redux with Re
 
 This project is a demo and not meant for production. Client API Key must be
 set and restrictions applied.
-
 
 ### Structure
 
@@ -103,5 +106,5 @@ Run e2e tests with cypress.
 
 ## Attributions
 
-- Claw Machine Vectors by [Vecteezy](https://www.vecteezy.com/free-vector/claw-machine)
-- Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)
+* Claw Machine Vectors by [Vecteezy](https://www.vecteezy.com/free-vector/claw-machine)
+* Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)

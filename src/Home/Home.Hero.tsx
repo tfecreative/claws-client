@@ -17,8 +17,8 @@ export const HomeHero = () => {
   );
 
   const defaultCenter: Location = {
-    lat: 40.79739,
-    lng: -81.377037,
+    lat: 42.3739264,
+    lng: -82.9232484,
   };
 
   const loadClaws = async () => {
