@@ -28,7 +28,7 @@ export const AppNavbar = ({ title }: NavbarProps) => {
       <Collapse isOpen={isOpen} navbar>
         <Nav className="ml-auto" navbar>
           <NavItem>
-            <NavLink href="/components/">Components</NavLink>
+            <NavLink href="/submission/">Submit a Claw Machine</NavLink>
           </NavItem>
         </Nav>
       </Collapse>

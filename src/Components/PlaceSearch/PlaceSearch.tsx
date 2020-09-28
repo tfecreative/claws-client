@@ -8,11 +8,14 @@ export type PlaceSearchProps = {
 };
 
 export const PlaceSearch = ({ apiKey, onChange }: PlaceSearchProps) => {
+  const handleChange = (obj: any) => {
+    onChange(obj);
+  };
   return (
     <div className="place-search" data-testid="place-search">
       <GooglePlacesAutocomplete
         apiKey={apiKey}
-        selectProps={{ onChange: onChange }}
+        selectProps={{ onChange: handleChange }}
       />
     </div>
   );
