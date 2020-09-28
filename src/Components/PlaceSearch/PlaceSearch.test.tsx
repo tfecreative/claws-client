@@ -13,6 +13,10 @@ describe("PlaceSearch", () => {
     expect(getByText("Select...")).toBeTruthy();
   });
 
+  // it("fires onChange function when place is changed", () => {
+  //   ...load mock data, select place and verify function call
+  // });
+
   // it("results list displayed on input", () => {
   //   ...mock response data and verify list is displayed on input
   // });
