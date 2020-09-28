@@ -1,0 +1,19 @@
+@import "mixins/breakpoints";
+@import "variables/sizes";
+@import "variables/colors";
+
+.claw-map {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+
+  &__map {
+    width: 250px;
+    height: 250px;
+    border: 2px solid $accent;
+
+    @include sm {
+      width: 400px;
+    }
+  }
+}
