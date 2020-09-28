@@ -1,3 +1,6 @@
 @import "variables/colors";
 
+// Misc bootstrap variables
+$enable-rounded: false;
+
 @import "~bootstrap/scss/bootstrap.scss";
